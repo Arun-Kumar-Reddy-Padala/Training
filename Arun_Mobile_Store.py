@@ -32,7 +32,7 @@ while choice!=5:
 			price=int(input("Enter the price of each unit: "))
 			mobiles=Mobile(name,model,units,price)
 		elif choice==2:
-			delete=input("Enter the mobile name you want to remove: ")
+			delete=input("Enter the mobile name along with the model name that you want to remove: ")
 			if delete not in dictionary:
 				print("Enter a Valid name: ")
 			else:
@@ -47,7 +47,7 @@ while choice!=5:
 		elif choice==3:
 			print(dictionary)
 		elif choice==4:
-			search=input("Enter the Phone's Model name: ")
+			search=input("Enter the mobile name along with the model name: ")
 			print(dictionary[search])
 		elif choice==5:
 			sys.exit()
