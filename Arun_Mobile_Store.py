@@ -26,7 +26,7 @@ while choice!=5:
 	try:
 		choice=int(input("Enter your choice: "))
 		if choice==1:
-			name=input("Enter the mobile name: ")
+			name=input("Enter the mobile name along with the model name: ")
 			model=input("Enter the mobile make number: ")
 			units=int(input("Enter the number of units: "))
 			price=int(input("Enter the price of each unit: "))
